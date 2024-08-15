@@ -66,22 +66,47 @@
 # listaImpar1 = listaImpar2
 
 #Resolução: 
-soma_impar = 0
-soma_par = 0
-lista1 = []
-lista2 = []
-tamanho_lista = int(input("Insira o tamanho das listas: "))
-for i in range (tamanho_lista):
-    valores1 = int(input())
-    lista1 += [valores1]
-print (f"A lista 1 é: {lista1}.")
+# soma_impar1 = 0
+# soma_par1 = 0
+# soma_impar2 = 0
+# soma_par2 = 0
+# lista1 = []
+# lista2 = []
+# tamanho_lista = int(input("Insira o tamanho das listas: "))
+# for i in range (tamanho_lista):
+#     valores1 = int(input())
+#     lista1 += [valores1]
+# print (f"A lista 1 é: {lista1}.")
 
-for i in range (tamanho_lista):
-    valores2 = int(input())
-    lista2 += [valores2]
-print (f"A lista 2 é: {lista2}.")
+# for i in range (tamanho_lista):
+#     valores2 = int(input())
+#     lista2 += [valores2]
+# print (f"A lista 2 é: {lista2}.")
 
-#PRECISA COMPLETAR
+# for x in lista1:
+#     if x%2 == 0:
+#         soma_par1 += x
+#     else:
+#         soma_impar1 += x
+# print (f"Soma lista Par1: {soma_par1} \n Soma lista Impar1: {soma_impar1}")
+
+# for y in lista2:
+#     if y%2 == 0:
+#         soma_par2 += y
+#     else:
+#         soma_impar2 += y
+# print (f"Soma lista Par2: {soma_par2} \n Soma lista Impar2: {soma_impar2}")
+
+# if soma_par1>soma_par2:
+#     print("ListaPar1>ListaPar2")
+# else:
+#     print("ListaPar2>ListaPar1")
+
+# if soma_impar1>soma_impar2:
+#     print("ListaImpar1>ListaImpar2")
+# else:
+#     print("ListaImpar2>ListaImpar1")
+
 
 
 
