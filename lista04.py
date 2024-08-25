@@ -179,4 +179,42 @@
 
 ###################################################################################################
 
+# 5. Escreva um programa que receba como entrada uma sequência de valores inteiros.
+# Para tanto, o programa deverá inicialmente solicitar ao usuário quantos valores serão
+# fornecidos para análise e só depois solicitar os valores a serem analisados. A análise
+# consistirá em identificar e apresentar a partir da sequência de valores fornecidos, o
+# menor valor, o maior valor e a média aritmética dos valores. Exemplos:
+# Entrada 1:
+# 7
+# 1 9 3 2 3 6 4
 
+# Saída 1:
+# Menor valor: 1
+# Maior valor: 9
+# Média aritmética: 4
+
+# Entrada 2:
+# 3
+# 10 40 13
+
+# Saída 2:
+# Menor valor: 3
+# Maior valor: 40
+# Média aritmética: 21
+
+
+#RESOLUÇÃO:
+# lista_valores = []
+# quantidade_de_valores = int(input())
+
+# for x in range (quantidade_de_valores):
+#     valores = int(input("Adicione valores inteiros: "))
+#     lista_valores.append(valores)
+# menor_valor = min(lista_valores)
+# maior_valor = max(lista_valores)
+# media_aritmetica = sum(lista_valores)/quantidade_de_valores
+# print (f"O menor valor é: {menor_valor}")
+# print (f"O maior valor é: {maior_valor}")
+# print(f"A média aritmética da lista é: {media_aritmetica}")
+
+##########################################################################
