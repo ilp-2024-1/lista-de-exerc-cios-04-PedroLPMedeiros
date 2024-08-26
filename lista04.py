@@ -234,24 +234,56 @@
 
 #RESOLUÇÃO: 
 
-numeros = input("Digite uma lista de números separados por espaço: ").split()
-string = input("Digite uma string com o mesmo número de caracteres: ")
+# numeros = input("Digite uma lista de números separados por espaço: ").split()
+# string = input("Digite uma string com o mesmo número de caracteres: ")
 
 
-if len(numeros) != len(string):
-    print("A lista de números e a string devem ter o mesmo comprimento.")
-else:
+# if len(numeros) != len(string):
+#     print("A lista de números e a string devem ter o mesmo comprimento.")
+# else:
     
-    resultado = []
+#     resultado = []
     
-    for i in range(len(numeros)):
-        if i % 2 == 1:
-            resultado.append(string[i])
-        else:
-            resultado.append(numeros[i])
-            print(resultado)
+#     for i in range(len(numeros)):
+#         if i % 2 == 1:
+#             resultado.append(string[i])
+#         else:
+#             resultado.append(numeros[i])
+#             print(resultado)
 
+########################################################################
 
+#8. Escreva um programa que receba como entrada uma string constituída por uma se-
+# quência de números inteiros separados por espaço. O programa deverá transformar
+
+# essa string em uma lista de números inteiros e apresentar o resultado da soma dos
+# valores das posições ímpares dessa lista. Exemplos:
+# Entrada 1:
+# 1 9 3 2 3 9 4
+
+# Saída 1:
+# 9+2+9 = 20
+
+# Entrada 2:
+# 10 40 13 5 8 12 15 13
+
+# Saída 2: 40+5+12+13=70
+
+#RESOLUÇÃO: 
+# soma = 0
+# operacao = ""
+
+# n_strings = input("Digite uma sequênca de números inteiros separados por espaço: ")
+# lista_inteiros = list(map(int, n_strings.split()))
+
+# for i in range (1, len(lista_inteiros), 2):
+#     soma += lista_inteiros[i]
+#     operacao += str(lista_inteiros[i]) + " + "
+
+# operacao = operacao[:-2] + f" = {soma}"
+# print(operacao)
+
+#######################################################################
 
 
 
