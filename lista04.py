@@ -303,7 +303,7 @@ lista_tratadas = []
 
 #Remove a pontuação
 for palavra in lista_de_palavras:
-    if "." in palavra or "," in palavra:
+    if ("." in palavra) or ("," in palavra):
         lista_tratadas += [palavra[:-1]]
 
 lista_unicas = []
