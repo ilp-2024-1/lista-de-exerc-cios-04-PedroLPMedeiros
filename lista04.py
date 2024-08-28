@@ -305,6 +305,8 @@ lista_tratadas = []
 for palavra in lista_de_palavras:
     if ("." in palavra) or ("," in palavra):
         lista_tratadas += [palavra[:-1]]
+    else:
+        lista_tratadas += [palavra]
 
 lista_unicas = []
 for palavra in lista_tratadas:
