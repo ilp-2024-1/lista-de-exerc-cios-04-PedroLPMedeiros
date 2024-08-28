@@ -320,7 +320,7 @@ for unica in lista_unicas:
     i += 1
 
 print("Relação de palavras e quantidade: ")
-for i in len(lista_unicas):
+for i in range(len(lista_unicas)):
     print(f"{lista_unicas[i]}={lista_quantidade[i]};")
 
 
