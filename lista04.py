@@ -286,3 +286,46 @@
 #######################################################################
 
 
+# 9. Escreva um programa que receba como entrada uma string várias palavras separadas
+# por espaço. O programa deverá verificar e apresentar a quantidade de ocorrência de
+# cada palavra no texto repassado como entrada para o programa. Os sinais de pontu-
+# ação não devem ser contabilizados, como por exemplo “.” Ou “,”.
+
+
+#RESOLUÇÃO:
+contador = 0
+lista_de_palavras = []
+
+string = input("Insira palavras separadas por espaço: ")
+lista_de_palavras = string.split(" ")
+
+lista_tratadas = []
+
+#Remove a pontuação
+for palavra in lista_de_palavras:
+    if "." in palavra or "," in palavra:
+        lista_tratadas += [palavra[:-1]]
+
+lista_unicas = []
+for palavra in lista_tratadas:
+    if palavra not in lista_unicas:
+        lista_unicas += [palavra]
+
+lista_quantidade = [ 0 for _ in range (len(lista_unicas))]
+i = 0
+for unica in lista_unicas:
+    for palavra in lista_tratadas:
+        if unica == palavra:
+            lista_quantidade[i] += 1
+    i += 1
+
+print("Relação de palavras e quantidade: ")
+for i in len(lista_unicas):
+    print(f"{lista_unicas[i]}={lista_quantidade[i]};")
+
+
+
+
+
+
+
